@@ -1,0 +1,24 @@
+.btn {
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  font-weight: 500;
+  transition: opacity 0.2s ease;
+  cursor: pointer;
+}
+.solid {
+  background: #2563eb;
+  color: white;
+  border: none;
+}
+.outline {
+  border: 1px solid #2563eb;
+  color: #2563eb;
+  background: transparent;
+}
+.ghost {
+  background: transparent;
+  color: #2563eb;
+  border: none;
+}
+.btn:disabled { opacity: 0.5; cursor: not-allowed; }
+.btn:focus { outline: 2px solid #2563eb; outline-offset: 2px; }

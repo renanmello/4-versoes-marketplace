@@ -1,0 +1,26 @@
+.card {
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  background: var(--bg);
+  color: var(--text);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.card:hover { transform: translateY(-3px); box-shadow: 0 4px 10px rgba(0,0,0,0.2); }
+.img { width: 100%; aspect-ratio: 1/1; object-fit: cover; border-radius: 0.25rem; }
+.title {
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.price { color: #16a34a; }
+.rating { color: #facc15; }
+.tag {
+  display: inline-block;
+  font-size: 0.75rem;
+  background: #ef4444;
+  color: white;
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.25rem;
+}
